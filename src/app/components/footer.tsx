@@ -1,75 +1,112 @@
+import Link from "next/link";
 
 export default function Footer() {
-    return (
-        <footer id="footer" className="footer">
-        <div className="container footer-top">
-          <div className="row gy-4">
-            <div className="col-lg-4 col-md-6 footer-about">
-              <a href="index.html" className="logo d-flex align-items-center">
-                <span className="sitename">Wekex</span>
+  return (
+    <footer className="border-t border-ink-line bg-white">
+      <div className="site-shell grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
+        <div className="lg:col-span-1">
+          <Link href="/" className="inline-flex items-center gap-2.5">
+            <img
+              src="/assets/img/brand-mark.png"
+              alt=""
+              width={32}
+              height={32}
+              className="h-8 w-8 rounded-md object-contain"
+            />
+            <span className="font-display text-2xl font-bold tracking-tight text-ink">
+              Wekex
+            </span>
+          </Link>
+          <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
+            Enquiry systems for clinics in NL, Australia, Canada & Nordics —
+            and UAE brokerages in Dubai & Abu Dhabi. Online since 2016.
+            Founder-led builds.
+          </p>
+        </div>
+        <div>
+          <p className="section-label !mb-4">Clinic</p>
+          <ul className="space-y-2 text-sm text-ink-muted">
+            <li>
+              <Link href="/clinic" className="hover:text-ink">
+                Overview
+              </Link>
+            </li>
+            <li>
+              <Link href="/clinic/crm" className="hover:text-ink">
+                CRM
+              </Link>
+            </li>
+            <li>
+              <Link href="/clinic/pricing" className="hover:text-ink">
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link href="/clinic/fit" className="hover:text-ink">
+                Fit
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="section-label !mb-4">Property</p>
+          <ul className="space-y-2 text-sm text-ink-muted">
+            <li>
+              <Link href="/property" className="hover:text-ink">
+                Overview
+              </Link>
+            </li>
+            <li>
+              <Link href="/property/crm" className="hover:text-ink">
+                CRM
+              </Link>
+            </li>
+            <li>
+              <Link href="/property/pricing" className="hover:text-ink">
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link href="/property/fit" className="hover:text-ink">
+                Fit
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="section-label !mb-4">Contact</p>
+          <ul className="space-y-2 text-sm text-ink-muted">
+            <li>
+              <a href="mailto:client@wekex.com" className="hover:text-ink">
+                client@wekex.com
               </a>
-              <div className="footer-contact pt-3">
-                <p>New Home Residency, Yashwant shrusti</p>
-                <p>Boisar 401501, Maharashtra</p>
-                <p className="mt-3"><strong>Phone:</strong> <span>+91 848 403 4341</span></p>
-                <p><strong>Email:</strong> <span>client@wekex.com</span></p>
-              </div>
-              <div className="social-links d-flex mt-4">
-                <a href="#"><i className="bi bi-twitter-x"></i></a>
-                <a href="#"><i className="bi bi-facebook"></i></a>
-                <a href="#"><i className="bi bi-instagram"></i></a>
-                <a href="#"><i className="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-    
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Quick Links</h4>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About us</a></li>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-    
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><a href="service-details.html?service=web-development">Web Development</a></li>
-                <li><a href="service-details.html?service=mobile-development">Mobile App Development</a></li>
-                <li><a href="service-details.html?service=iot-solutions">IoT Solutions</a></li>
-                <li><a href="service-details.html?service=ecommerce-solutions">E-Commerce Solutions</a></li>
-              </ul>
-            </div>
-    
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Technologies</h4>
-              <ul>
-                <li><a href="#">React & Node.js</a></li>
-                <li><a href="#">Flutter & Firebase</a></li>
-                <li><a href="#">Python & Django</a></li>
-                <li><a href="#">IoT & Embedded</a></li>
-                <li><a href="#">Cloud Solutions</a></li>
-              </ul>
-            </div>
-    
-            <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Industries</h4>
-              <ul>
-                <li><a href="#">Healthcare</a></li>
-                <li><a href="#">E-commerce</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Manufacturing</a></li>
-                <li><a href="#">Logistics</a></li>
-              </ul>
-            </div>
-          </div>
+            </li>
+            <li>
+              <a href="tel:+918484034341" className="hover:text-ink">
+                +91 848 403 4341
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/71327414"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-ink"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="/#work" className="hover:text-ink">
+                Selected work
+              </a>
+            </li>
+          </ul>
         </div>
-    
-        <div className="container copyright text-center mt-4">
-          <p>© <span>Copyright</span> <strong className="px-1">Wekex Technologies</strong> <span>All Rights Reserved</span></p>
-        </div>
-      </footer>
-    )
+      </div>
+      <div className="site-shell border-t border-ink-line py-6 text-xs text-ink-muted/70">
+        © {new Date().getFullYear()} Wekex Technologies. All rights reserved.
+      </div>
+    </footer>
+  );
 }

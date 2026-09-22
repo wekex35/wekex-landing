@@ -3,19 +3,84 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f8fa;
+  --foreground: #0f1218;
+  --signal: #e8462f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--signal) 28%, transparent);
+  color: #0f1218;
+}
+
+@layer components {
+  .site-shell {
+    @apply mx-auto w-full max-w-site px-5 md:px-8;
+  }
+
+  .btn-signal {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-signal px-6 py-3 text-sm font-semibold tracking-wide text-white transition duration-300 hover:bg-signal-soft hover:shadow-[0_12px_28px_-8px_rgba(232,70,47,0.45)];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink/15 bg-white/70 px-6 py-3 text-sm font-medium tracking-wide text-ink transition duration-300 hover:border-ink/30 hover:bg-white;
+  }
+
+  .btn-ink {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold tracking-wide text-white transition duration-300 hover:bg-ink-soft;
+  }
+
+  .section-label {
+    @apply mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-signal;
+  }
+
+  .display-xl {
+    @apply font-display text-[clamp(2.5rem,6.5vw,5rem)] font-semibold leading-[0.98] tracking-[-0.03em] text-ink;
+  }
+
+  .display-lg {
+    @apply font-display text-[clamp(1.85rem,4vw,3.15rem)] font-semibold leading-[1.08] tracking-[-0.025em] text-ink;
+  }
+
+  .body-lg {
+    @apply text-base leading-relaxed text-ink-muted md:text-lg;
+  }
+
+  .input-field {
+    @apply w-full rounded-2xl border border-ink-line bg-white px-4 py-3.5 text-sm text-ink outline-none transition placeholder:text-ink-muted/50 focus:border-signal;
+  }
+
+  .surface-card {
+    @apply overflow-hidden rounded-3xl border border-ink-line bg-white shadow-soft;
+  }
+
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
