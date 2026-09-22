@@ -41,7 +41,7 @@ export default function ClinicWorkflowsPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/analytics"
         secondaryLabel="Analytics"
-        image="/assets/img/clinic/appointments.jpg"
+        image="/assets/img/clinic/appointments.webp"
         imageAlt="Clinic enquiry system flow — sample UI / not live client data"
       />
 
@@ -201,7 +201,7 @@ export default function ClinicWorkflowsPage() {
         label="Desk scenarios"
         title="What a Monday morning looks like with the board live"
         body="Reception opens one queue: new enquiries from the weekend, contacted-but-not-booked, booked-today, and open no-shows from last week. Sample UI concept — not live client data. The point is operational calm, not a prettier spreadsheet."
-        image="/assets/img/clinic/dashboard.jpg"
+        image="/assets/img/clinic/dashboard.webp"
         imageAlt="Clinic desk enquiry board — sample UI / not live client data"
         bullets={[
           "Weekend Meta / Google enquiries already tagged and waiting",

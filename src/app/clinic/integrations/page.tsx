@@ -41,7 +41,7 @@ export default function ClinicIntegrationsPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/pricing"
         secondaryLabel="Pricing"
-        image="/assets/img/clinic/appointments.jpg"
+        image="/assets/img/clinic/appointments.webp"
         imageAlt="Clinic system stack — sample diagram / not live client data"
       />
 
@@ -178,7 +178,7 @@ export default function ClinicIntegrationsPage() {
         label="Stack picture"
         title="One enquiry system — not five disconnected tools"
         body="Landing → capture → board → booking → weekly snapshot. Integrations exist to feed that spine. Sample stack visual — not live client data."
-        image="/assets/img/clinic/appointments.jpg"
+        image="/assets/img/clinic/appointments.webp"
         imageAlt="System stack diagram — sample / not live client data"
         bullets={[
           "Fewer “which inbox did that lead hit?” moments",

@@ -41,7 +41,7 @@ export default function ClinicPricingPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/fit"
         secondaryLabel="Who it's for"
-        image="/assets/img/clinic/room.jpg"
+        image="/assets/img/clinic/room.webp"
         imageAlt="Wekex clinic system — product context"
       />
 

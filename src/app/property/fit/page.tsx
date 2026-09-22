@@ -39,7 +39,7 @@ export default function PropertyFitPage() {
         primaryLabel="Book fit call"
         secondaryHref="/property/pricing"
         secondaryLabel="Pricing"
-        image="/assets/img/property/ops.jpg"
+        image="/assets/img/property/ops.webp"
         imageAlt="Aurex mobile discover / browse — sample UAE property visual"
       />
 

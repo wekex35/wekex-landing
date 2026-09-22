@@ -39,7 +39,7 @@ export default function PropertyPricingPage() {
         primaryLabel="Book fit call"
         secondaryHref="/property/fit"
         secondaryLabel="Who it's for"
-        image="/assets/img/property/dashboard.jpg"
+        image="/assets/img/property/dashboard.webp"
         imageAlt="Property enquiry dashboard — sample UI"
       />
 

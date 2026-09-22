@@ -42,7 +42,7 @@ export default function ClinicAnalyticsPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/integrations"
         secondaryLabel="Integrations"
-        image="/assets/img/clinic/analytics.jpg"
+        image="/assets/img/clinic/analytics.webp"
         imageAlt="Clinic pipeline visibility — sample UI / not live client data"
       />
 
@@ -150,7 +150,7 @@ export default function ClinicAnalyticsPage() {
         label="Product UI"
         title="A weekly rhythm — not a BI project"
         body="Owners don’t need a data warehouse. They need a Friday view: what came in, what booked, what’s still open, and which source deserves next week’s spend. Sample UI — not live client data."
-        image="/assets/img/clinic/analytics.jpg"
+        image="/assets/img/clinic/analytics.webp"
         imageAlt="Clinic analytics dashboard — sample UI / not live client data"
         bullets={[
           "Same journey language as CRM and booking",

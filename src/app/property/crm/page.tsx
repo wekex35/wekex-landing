@@ -42,7 +42,7 @@ export default function PropertyCrmPage() {
         primaryLabel="Book fit call"
         secondaryHref="/property/listings"
         secondaryLabel="See listings"
-        image="/assets/img/property/dashboard.jpg"
+        image="/assets/img/property/dashboard.webp"
         imageAlt="UAE property lead CRM inbox for Dubai and Abu Dhabi brokerages"
       />
 
@@ -156,7 +156,7 @@ export default function PropertyCrmPage() {
         label="Product UI · sample"
         title="Built for how buyers message"
         body="Sample inbox layout — illustrative structure only, not live client case numbers or fabricated response-time claims."
-        image="/assets/img/property/crm-pipeline.jpg"
+        image="/assets/img/property/crm-pipeline.webp"
         imageAlt="Deals kanban pipeline — sample lead inbox UI, not live client data"
         bullets={[
           "First-response visibility",

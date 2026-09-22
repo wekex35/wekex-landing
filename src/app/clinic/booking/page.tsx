@@ -41,7 +41,7 @@ export default function ClinicBookingPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/workflows"
         secondaryLabel="See workflows"
-        image="/assets/img/clinic/booking-mobile.jpg"
+        image="/assets/img/clinic/booking-mobile.webp"
         imageAlt="Clinic online booking for dental and physio clinics in NL, Australia, Canada and Nordics"
       />
 
@@ -63,7 +63,7 @@ export default function ClinicBookingPage() {
         label="Calendar"
         title="Slots that sync with how you work"
         body="Patients pick a time that fits. You see booked vs open without hunting through messages. The calendar view is part of the enquiry system — not a disconnected widget that emails someone and then disappears."
-        image="/assets/img/clinic/booking-mobile.jpg"
+        image="/assets/img/clinic/booking-mobile.webp"
         imageAlt="Booking calendar UI — sample UI / not live client data"
         bullets={[
           "Clear available windows your desk can defend",
@@ -77,7 +77,7 @@ export default function ClinicBookingPage() {
         label="Mobile"
         title="Works on the phone — where most patients decide"
         body="Desktop-only forms lose people who were ready to book on the couch. Capture and booking screens are built for thumbs: short steps, clear CTAs, confirmation that doesn’t require a call back just to finish."
-        image="/assets/img/clinic/dental-mobile.jpg"
+        image="/assets/img/clinic/dental-mobile.webp"
         imageAlt="Mobile clinic booking — sample UI / not live client data"
         reverse
         bullets={[

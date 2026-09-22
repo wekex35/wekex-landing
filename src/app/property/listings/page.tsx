@@ -41,7 +41,7 @@ export default function PropertyListingsPage() {
         primaryLabel="Book fit call"
         secondaryHref="/property/workflows"
         secondaryLabel="Workflows"
-        image="/assets/img/property/mobile.jpg"
+        image="/assets/img/property/mobile.webp"
         imageAlt="Mobile listing app — sample UAE listing enquiry UI"
       />
 
@@ -83,7 +83,7 @@ export default function PropertyListingsPage() {
         label="Offer pages · sample"
         title="Stock that converts on your domain"
         body="Premium listing layouts with enquiry capture wired into your inbox — not a PDF brochure dump. Sample UI structure only."
-        image="/assets/img/property/landing.jpg"
+        image="/assets/img/property/landing.webp"
         imageAlt="Homeluxe residential landing — sample listing enquiry layout"
         bullets={[
           "Clear CTA to WhatsApp or form",
@@ -97,7 +97,7 @@ export default function PropertyListingsPage() {
         label="Hero visual · sample"
         title="Atmosphere that matches UAE inventory"
         body="Strong property visuals and enquiry UI so the page feels like a product — not a generic template. Sample imagery for structure, not a fake case study."
-        image="/assets/img/property/ops.jpg"
+        image="/assets/img/property/ops.webp"
         imageAlt="Aurex mobile discover / browse — sample property marketing visual"
         reverse
         bullets={[

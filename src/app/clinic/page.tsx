@@ -80,7 +80,7 @@ export default function ClinicHubPage() {
         primaryLabel="Book 15-min fit call"
         secondaryHref="/clinic/crm"
         secondaryLabel="Explore CRM"
-        image="/assets/img/clinic/dashboard.jpg"
+        image="/assets/img/clinic/dashboard.webp"
         imageAlt="Clinic patient enquiry CRM for dental and physio clinics"
       />
 
@@ -228,7 +228,7 @@ export default function ClinicHubPage() {
         note="Sample concepts for scoping. Not live product claims or clinical AI diagnostics."
         items={[
           {
-            src: "/assets/img/clinic/ai-clinic.jpg",
+            src: "/assets/img/clinic/ai-clinic.webp",
             alt: "AI clinic operations concept",
             t: "Ops & engagement",
             d: "Efficiency, reminders, patient engagement hooks.",
@@ -236,7 +236,7 @@ export default function ClinicHubPage() {
             h: 490,
           },
           {
-            src: "/assets/img/clinic/ai-hospital.jpg",
+            src: "/assets/img/clinic/ai-hospital.webp",
             alt: "AI hospital assistant concept",
             t: "Desk assistant",
             d: "Tasks, alerts, and schedule help — human sends.",
@@ -244,7 +244,7 @@ export default function ClinicHubPage() {
             h: 736,
           },
           {
-            src: "/assets/img/clinic/ai-smart-hospital.jpg",
+            src: "/assets/img/clinic/ai-smart-hospital.webp",
             alt: "Smart hospital AI concept",
             t: "System vision",
             d: "How AI can sit beside the enquiry stack.",
@@ -252,7 +252,7 @@ export default function ClinicHubPage() {
             h: 736,
           },
           {
-            src: "/assets/img/clinic/ai-personalize.jpg",
+            src: "/assets/img/clinic/ai-personalize.webp",
             alt: "Personalized care concept",
             t: "Personalization",
             d: "Only if it fits your niche — scoped, not assumed.",
@@ -260,7 +260,7 @@ export default function ClinicHubPage() {
             h: 1402,
           },
           {
-            src: "/assets/img/clinic/ai-pharma.jpg",
+            src: "/assets/img/clinic/ai-pharma.webp",
             alt: "AI assistant with cited sources concept",
             t: "Assisted answers",
             d: "Drafts with sources — never unsupervised clinical advice.",
@@ -268,7 +268,7 @@ export default function ClinicHubPage() {
             h: 1500,
           },
           {
-            src: "/assets/img/clinic/ai-health-app.jpg",
+            src: "/assets/img/clinic/ai-health-app.webp",
             alt: "AI health assistant mobile app concept",
             t: "Patient app (optional)",
             d: "Mobile AI coach style — only if you want it in scope.",
@@ -276,7 +276,7 @@ export default function ClinicHubPage() {
             h: 736,
           },
           {
-            src: "/assets/img/clinic/ai-telehealth.jpg",
+            src: "/assets/img/clinic/ai-telehealth.webp",
             alt: "Telehealth video consult concept",
             t: "Telehealth (optional)",
             d: "Video consult + booking icons — wire only if you ask.",
@@ -303,7 +303,7 @@ export default function ClinicHubPage() {
         label="Product UI"
         title="One board for enquiries — not five chat threads"
         body="Pipeline statuses match clinic reality: new, contacted, booked, showed. Notes and source stay on the card so anyone on the desk can pick up."
-        image="/assets/img/clinic/appointments.jpg"
+        image="/assets/img/clinic/appointments.webp"
         imageAlt="Clinic appointments dashboard — sample UI"
         bullets={[
           "Statuses your front desk already understands",
@@ -316,7 +316,7 @@ export default function ClinicHubPage() {
         label="Booking"
         title="Patients finish booking without calling the desk"
         body="Online slots, confirmation, and showed tracking — wired into the same enquiry system."
-        image="/assets/img/clinic/booking-mobile.jpg"
+        image="/assets/img/clinic/booking-mobile.webp"
         imageAlt="Clinic booking on mobile — sample UI"
         reverse
         bullets={[
@@ -330,7 +330,7 @@ export default function ClinicHubPage() {
         label="Landing pages"
         title="A clinic site patients actually finish"
         body="Pilot includes a landing built for enquiries — clear offer, form or WhatsApp CTA, and source tracking into the same board."
-        image="/assets/img/clinic/landing-alt.jpg"
+        image="/assets/img/clinic/landing-alt.webp"
         imageAlt="Sample clinic marketing landing — illustrative"
         bullets={[
           "Clear CTA above the fold",
@@ -346,7 +346,7 @@ export default function ClinicHubPage() {
         note="Illustrative mockups for scope. Your build is scoped on the fit call."
         items={[
           {
-            src: "/assets/img/clinic/dashboard.jpg",
+            src: "/assets/img/clinic/dashboard.webp",
             alt: "Clinic operations dashboard",
             t: "Desk dashboard",
             d: "Doctors, schedule, and messages in one view.",
@@ -354,7 +354,7 @@ export default function ClinicHubPage() {
             h: 1536,
           },
           {
-            src: "/assets/img/clinic/booking-mobile.jpg",
+            src: "/assets/img/clinic/booking-mobile.webp",
             alt: "Mobile booking app",
             t: "Mobile booking",
             d: "Patients book without calling the desk.",
@@ -362,7 +362,7 @@ export default function ClinicHubPage() {
             h: 900,
           },
           {
-            src: "/assets/img/clinic/dental-mobile.jpg",
+            src: "/assets/img/clinic/dental-mobile.webp",
             alt: "Dental clinic mobile landing",
             t: "Niche landing",
             d: "Dental-style capture with a clear book CTA.",
@@ -370,7 +370,7 @@ export default function ClinicHubPage() {
             h: 981,
           },
           {
-            src: "/assets/img/clinic/appointments.jpg",
+            src: "/assets/img/clinic/appointments.webp",
             alt: "Appointments board",
             t: "Appointments & queue",
             d: "Today’s list, availability, and follow-ups.",
@@ -378,7 +378,7 @@ export default function ClinicHubPage() {
             h: 900,
           },
           {
-            src: "/assets/img/clinic/analytics.jpg",
+            src: "/assets/img/clinic/analytics.webp",
             alt: "Clinic analytics dashboard",
             t: "Visibility",
             d: "Source and schedule clarity — not vanity counts.",
@@ -386,7 +386,7 @@ export default function ClinicHubPage() {
             h: 566,
           },
           {
-            src: "/assets/img/clinic/room.jpg",
+            src: "/assets/img/clinic/room.webp",
             alt: "Modern clinic consultation room",
             t: "Clinic atmosphere",
             d: "The environment your patients walk into.",
@@ -394,7 +394,7 @@ export default function ClinicHubPage() {
             h: 557,
           },
           {
-            src: "/assets/img/clinic/office.jpg",
+            src: "/assets/img/clinic/office.webp",
             alt: "Specialist clinic office",
             t: "Consult space",
             d: "Premium desk experience for specialist clinics.",
@@ -402,7 +402,7 @@ export default function ClinicHubPage() {
             h: 675,
           },
           {
-            src: "/assets/img/clinic/booking-ui.jpg",
+            src: "/assets/img/clinic/booking-ui.webp",
             alt: "Booking UI mobile screen",
             t: "Booking UI",
             d: "Slot pick and confirm on the phone.",
@@ -419,7 +419,7 @@ export default function ClinicHubPage() {
         note="Sample marketing layouts only — not live client sites. Branding on mocks is illustrative."
         items={[
           {
-            src: "/assets/img/clinic/landing.jpg",
+            src: "/assets/img/clinic/landing.webp",
             alt: "Full hospital clinic website landing",
             t: "Multi-specialty clinic",
             d: "Hero, services, doctors, facilities, book CTAs.",
@@ -427,7 +427,7 @@ export default function ClinicHubPage() {
             h: 1672,
           },
           {
-            src: "/assets/img/clinic/landing-alt.jpg",
+            src: "/assets/img/clinic/landing-alt.webp",
             alt: "Clinic marketing landing page",
             t: "General clinic",
             d: "Clean enquiry hero with appointment CTA.",
@@ -435,7 +435,7 @@ export default function ClinicHubPage() {
             h: 1104,
           },
           {
-            src: "/assets/img/clinic/landing-pedia.jpg",
+            src: "/assets/img/clinic/landing-pedia.webp",
             alt: "Pediatric clinic landing page",
             t: "Pediatrics",
             d: "Family-friendly booking and services grid.",
@@ -443,7 +443,7 @@ export default function ClinicHubPage() {
             h: 1104,
           },
           {
-            src: "/assets/img/clinic/landing-lab.jpg",
+            src: "/assets/img/clinic/landing-lab.webp",
             alt: "Diagnostics lab landing page",
             t: "Diagnostics / lab",
             d: "Book a test, packages, and home collection.",
@@ -451,7 +451,7 @@ export default function ClinicHubPage() {
             h: 1104,
           },
           {
-            src: "/assets/img/clinic/landing-care.jpg",
+            src: "/assets/img/clinic/landing-care.webp",
             alt: "Healthcare delivery landing page",
             t: "Care + consult",
             d: "Online consult CTA and service cards.",
@@ -459,7 +459,7 @@ export default function ClinicHubPage() {
             h: 1306,
           },
           {
-            src: "/assets/img/clinic/dental-mobile.jpg",
+            src: "/assets/img/clinic/dental-mobile.webp",
             alt: "Dental clinic mobile landing",
             t: "Dental (mobile)",
             d: "Confident smile offer with book bar.",

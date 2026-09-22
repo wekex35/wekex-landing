@@ -42,7 +42,7 @@ export default function PropertyIntegrationsPage() {
         primaryLabel="Book fit call"
         secondaryHref="/property/pricing"
         secondaryLabel="Pricing"
-        image="/assets/img/property/dashboard-alt.jpg"
+        image="/assets/img/property/dashboard-alt.webp"
         imageAlt="Verve brokerage dashboard — sample ops UI"
       />
 
@@ -168,7 +168,7 @@ export default function PropertyIntegrationsPage() {
         label="Stack · sample"
         title="A clear system diagram — not a vendor logo wall"
         body="Sample stack visual for how capture, inbox, and channel fit together. Illustrative only."
-        image="/assets/img/property/ops.jpg"
+        image="/assets/img/property/ops.webp"
         imageAlt="Aurex mobile discover / browse — sample stack visual"
         bullets={[
           "Listings → capture → inbox",

@@ -41,7 +41,7 @@ export default function PropertyWorkflowsPage() {
         primaryLabel="Book fit call"
         secondaryHref="/property/integrations"
         secondaryLabel="Integrations"
-        image="/assets/img/property/crm-pipeline.jpg"
+        image="/assets/img/property/crm-pipeline.webp"
         imageAlt="Deals kanban pipeline — sample brokerage lead flow UI"
       />
 
@@ -134,7 +134,7 @@ export default function PropertyWorkflowsPage() {
         label="System context · sample"
         title="Workflows sit on the same inbox — not a separate tool"
         body="Sample UI for how stages appear on the board. Illustrative layout only — not live client throughput numbers."
-        image="/assets/img/property/ai-agent.jpg"
+        image="/assets/img/property/ai-agent.webp"
         imageAlt="AI agent for real estate — sample system context, illustrative"
         bullets={[
           "Stages your agents already understand",

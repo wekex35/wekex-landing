@@ -16,7 +16,7 @@ export const metadata: Metadata = pageSeo({
 
 const selectedWork = [
   {
-    src: "/assets/img/clinic/landing.jpg",
+    src: "/assets/img/clinic/landing.webp",
     alt: "Multi-specialty clinic landing page",
     t: "Clinic landing",
     d: "Hero, services, doctors, book CTAs.",
@@ -24,7 +24,7 @@ const selectedWork = [
     h: 1672,
   },
   {
-    src: "/assets/img/property/landing.jpg",
+    src: "/assets/img/property/landing.webp",
     alt: "Property brokerage landing page",
     t: "Property landing",
     d: "Listings, search, and enquire flows.",
@@ -32,7 +32,7 @@ const selectedWork = [
     h: 1104,
   },
   {
-    src: "/assets/img/clinic/dashboard.jpg",
+    src: "/assets/img/clinic/dashboard.webp",
     alt: "Clinic CRM dashboard",
     t: "Clinic CRM",
     d: "Patient board, doctors, schedule.",
@@ -40,7 +40,7 @@ const selectedWork = [
     h: 1536,
   },
   {
-    src: "/assets/img/property/dashboard.jpg",
+    src: "/assets/img/property/dashboard.webp",
     alt: "Property CRM dashboard",
     t: "Property CRM",
     d: "Pipeline, listings, revenue.",
@@ -48,7 +48,7 @@ const selectedWork = [
     h: 750,
   },
   {
-    src: "/assets/img/clinic/booking-mobile.jpg",
+    src: "/assets/img/clinic/booking-mobile.webp",
     alt: "Clinic booking mobile app screens",
     t: "Booking mobile",
     d: "Slots, doctors, confirm.",
@@ -56,7 +56,7 @@ const selectedWork = [
     h: 900,
   },
   {
-    src: "/assets/img/property/mobile.jpg",
+    src: "/assets/img/property/mobile.webp",
     alt: "Property listing mobile app",
     t: "Listings mobile",
     d: "Browse, detail, book viewing.",
@@ -64,7 +64,7 @@ const selectedWork = [
     h: 1171,
   },
   {
-    src: "/assets/img/clinic/landing-pedia.jpg",
+    src: "/assets/img/clinic/landing-pedia.webp",
     alt: "Pediatric clinic landing",
     t: "Pediatrics",
     d: "Family-friendly book journey.",
@@ -72,7 +72,7 @@ const selectedWork = [
     h: 1104,
   },
   {
-    src: "/assets/img/property/landing-crm.jpg",
+    src: "/assets/img/property/landing-crm.webp",
     alt: "Real estate CRM marketing layout",
     t: "Broker CRM pitch",
     d: "Leads, pipeline, AI follow-ups.",
@@ -80,7 +80,7 @@ const selectedWork = [
     h: 1104,
   },
   {
-    src: "/assets/img/clinic/landing-care.jpg",
+    src: "/assets/img/clinic/landing-care.webp",
     alt: "Healthcare care delivery landing",
     t: "Care + consult",
     d: "Online consult and service cards.",
@@ -88,7 +88,7 @@ const selectedWork = [
     h: 1306,
   },
   {
-    src: "/assets/img/clinic/landing-lab.jpg",
+    src: "/assets/img/clinic/landing-lab.webp",
     alt: "Diagnostics lab landing page",
     t: "Diagnostics / lab",
     d: "Book a test, packages, home collection.",
@@ -96,7 +96,7 @@ const selectedWork = [
     h: 1104,
   },
   {
-    src: "/assets/img/property/landing-commercial.jpg",
+    src: "/assets/img/property/landing-commercial.webp",
     alt: "Commercial property landing",
     t: "Commercial",
     d: "Tall listing + enquire CTA.",
@@ -104,7 +104,7 @@ const selectedWork = [
     h: 1472,
   },
   {
-    src: "/assets/img/clinic/dental-mobile.jpg",
+    src: "/assets/img/clinic/dental-mobile.webp",
     alt: "Dental clinic mobile landing",
     t: "Dental mobile",
     d: "Offer + sticky book bar.",
@@ -112,7 +112,7 @@ const selectedWork = [
     h: 981,
   },
   {
-    src: "/assets/img/property/crm-pipeline.jpg",
+    src: "/assets/img/property/crm-pipeline.webp",
     alt: "Property sales pipeline board",
     t: "Sales pipeline",
     d: "Stages from lead to close.",
@@ -193,7 +193,7 @@ export default function Home() {
             <Link href="/clinic" className="group block">
               <div className="aspect-[16/10] overflow-hidden bg-paper-soft">
                 <img
-                  src="/assets/img/clinic/landing.jpg"
+                  src="/assets/img/clinic/landing.webp"
                   alt="Clinic enquiry system"
                   className="h-full w-full object-cover object-top transition duration-700 group-hover:scale-[1.03]"
                 />
@@ -216,7 +216,7 @@ export default function Home() {
             <Link href="/property" className="group block">
               <div className="aspect-[16/10] overflow-hidden bg-paper-soft">
                 <img
-                  src="/assets/img/property/landing.jpg"
+                  src="/assets/img/property/landing.webp"
                   alt="Property enquiry system"
                   className="h-full w-full object-cover object-top transition duration-700 group-hover:scale-[1.03]"
                 />

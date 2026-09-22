@@ -43,7 +43,7 @@ export default function ClinicFitPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/pricing"
         secondaryLabel="Pricing"
-        image="/assets/img/clinic/office.jpg"
+        image="/assets/img/clinic/office.webp"
         imageAlt="Clinic owner context for Wekex fit"
       />
 
@@ -146,7 +146,7 @@ export default function ClinicFitPage() {
         label="What good looks like"
         title="A clinic that uses the board every morning"
         body="Fit isn’t a logo on a slide. It’s a front desk that opens one queue, a owner who can read source → showed without agency fog, and a Pilot that shipped in weeks. Sample product context — not live client data."
-        image="/assets/img/clinic/room.jpg"
+        image="/assets/img/clinic/room.webp"
         imageAlt="Clinic consultation room atmosphere"
         bullets={[
           "Weekend enquiries waiting with source tags",

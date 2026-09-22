@@ -43,7 +43,7 @@ export default function ClinicCrmPage() {
         primaryLabel="Book fit call"
         secondaryHref="/clinic/booking"
         secondaryLabel="See booking"
-        image="/assets/img/clinic/dashboard.jpg"
+        image="/assets/img/clinic/dashboard.webp"
         imageAlt="Clinic enquiry CRM pipeline for NL, Australia, Canada and Nordic clinics"
       />
 
@@ -88,7 +88,7 @@ export default function ClinicCrmPage() {
         label="Pipeline"
         title="New → contacted → booked → showed"
         body="Statuses match how clinics actually work. Sample UI layout below — not live client data. Nothing important lives only in a chat thread: source, owner, notes, and next action sit on the card so the board is the source of truth."
-        image="/assets/img/clinic/appointments.jpg"
+        image="/assets/img/clinic/appointments.webp"
         imageAlt="Enquiry CRM stages — sample UI / not live client data"
         bullets={[
           "Source tags (web, ads, referral, walk-in, manual)",
@@ -222,7 +222,7 @@ export default function ClinicCrmPage() {
         label="Why it sticks"
         title="Built for the desk — not for a sales enablement deck"
         body="If reception won’t open it on a busy Monday, the CRM is theatre. We keep stages short, cards scannable, and booking status in the same system so the board earns its place next to the phone."
-        image="/assets/img/clinic/room.jpg"
+        image="/assets/img/clinic/room.webp"
         imageAlt="Clinic desk and enquiry system context"
         reverse
         bullets={[

@@ -78,7 +78,7 @@ export default function PropertyHubPage() {
         primaryLabel="Book 15-min fit call"
         secondaryHref="/property/crm"
         secondaryLabel="Explore CRM"
-        image="/assets/img/property/dashboard.jpg"
+        image="/assets/img/property/dashboard.webp"
         imageAlt="UAE property lead CRM dashboard for Dubai and Abu Dhabi brokerages"
       />
 
@@ -246,7 +246,7 @@ export default function PropertyHubPage() {
         label="Product UI · sample"
         title="One inbox for brokerage enquiries — not five WhatsApp groups"
         body="Pipeline statuses match brokerage reality: new, contacted, viewing, follow-up. Sample layout below — not live client case numbers."
-        image="/assets/img/property/crm-pipeline.jpg"
+        image="/assets/img/property/crm-pipeline.webp"
         imageAlt="Deals kanban pipeline — sample property CRM UI"
         bullets={[
           "First-response visibility for agents",
@@ -259,7 +259,7 @@ export default function PropertyHubPage() {
         label="Listings · sample"
         title="Offer pages that send buyers into your system"
         body="Owned listing layouts with Enquire / WhatsApp CTAs — so interest doesn’t only live behind portal rent. Sample UI structure only."
-        image="/assets/img/property/mobile.jpg"
+        image="/assets/img/property/mobile.webp"
         imageAlt="Mobile listing app — sample property enquiry UI"
         reverse
         bullets={[
@@ -276,7 +276,7 @@ export default function PropertyHubPage() {
         note="Illustrative mockups for scope. Your build is scoped on the fit call."
         items={[
           {
-            src: "/assets/img/property/dashboard.jpg",
+            src: "/assets/img/property/dashboard.webp",
             alt: "Homie CRM dashboard",
             t: "Desk dashboard",
             d: "Brokerage inbox and ops in one view.",
@@ -284,7 +284,7 @@ export default function PropertyHubPage() {
             h: 750,
           },
           {
-            src: "/assets/img/property/crm-pipeline.jpg",
+            src: "/assets/img/property/crm-pipeline.webp",
             alt: "Deals kanban pipeline",
             t: "Deals pipeline",
             d: "New → contacted → viewing → follow-up.",
@@ -292,7 +292,7 @@ export default function PropertyHubPage() {
             h: 900,
           },
           {
-            src: "/assets/img/property/dashboard-alt.jpg",
+            src: "/assets/img/property/dashboard-alt.webp",
             alt: "Verve brokerage dashboard",
             t: "Brokerage ops",
             d: "Alternate desk view for multi-agent teams.",
@@ -300,7 +300,7 @@ export default function PropertyHubPage() {
             h: 900,
           },
           {
-            src: "/assets/img/property/mobile.jpg",
+            src: "/assets/img/property/mobile.webp",
             alt: "Mobile listing app on two phones",
             t: "Mobile listings",
             d: "Buyers browse and enquire on the phone.",
@@ -308,7 +308,7 @@ export default function PropertyHubPage() {
             h: 1171,
           },
           {
-            src: "/assets/img/property/ops.jpg",
+            src: "/assets/img/property/ops.webp",
             alt: "Aurex mobile discover and browse",
             t: "Discover / browse",
             d: "Stock discovery on mobile for field agents.",
@@ -316,7 +316,7 @@ export default function PropertyHubPage() {
             h: 552,
           },
           {
-            src: "/assets/img/property/landing-crm.jpg",
+            src: "/assets/img/property/landing-crm.webp",
             alt: "AI-powered real estate CRM marketing page",
             t: "AI CRM landing",
             d: "Marketing page for an AI-assisted RE CRM.",
@@ -333,7 +333,7 @@ export default function PropertyHubPage() {
         note="Sample marketing layouts only — not live client sites. Branding on mocks is illustrative."
         items={[
           {
-            src: "/assets/img/property/landing.jpg",
+            src: "/assets/img/property/landing.webp",
             alt: "Homeluxe residential agency landing",
             t: "Residential agency",
             d: "Full landing with enquire / WhatsApp CTAs.",
@@ -341,7 +341,7 @@ export default function PropertyHubPage() {
             h: 1104,
           },
           {
-            src: "/assets/img/property/landing-commercial.jpg",
+            src: "/assets/img/property/landing-commercial.webp",
             alt: "Commercial property landing",
             t: "Commercial",
             d: "Tall commercial offer page for office / retail stock.",
@@ -349,7 +349,7 @@ export default function PropertyHubPage() {
             h: 1472,
           },
           {
-            src: "/assets/img/property/landing-1.jpg",
+            src: "/assets/img/property/landing-1.webp",
             alt: "Property landing demo 1",
             t: "Offer lander",
             d: "Hero + stock framing + enquiry CTA.",
@@ -357,7 +357,7 @@ export default function PropertyHubPage() {
             h: 1104,
           },
           {
-            src: "/assets/img/property/landing-2.jpg",
+            src: "/assets/img/property/landing-2.webp",
             alt: "Property landing demo 2",
             t: "Community push",
             d: "Community-led stock page for hot inventory.",
@@ -365,7 +365,7 @@ export default function PropertyHubPage() {
             h: 1307,
           },
           {
-            src: "/assets/img/property/landing-3.jpg",
+            src: "/assets/img/property/landing-3.webp",
             alt: "Property landing demo 3",
             t: "Listing showcase",
             d: "Unit-first layout with clear next step.",
@@ -373,7 +373,7 @@ export default function PropertyHubPage() {
             h: 1075,
           },
           {
-            src: "/assets/img/property/landing-4.jpg",
+            src: "/assets/img/property/landing-4.webp",
             alt: "Property landing demo 4",
             t: "Developer-style",
             d: "Project / off-plan style enquiry page.",
@@ -381,7 +381,7 @@ export default function PropertyHubPage() {
             h: 1075,
           },
           {
-            src: "/assets/img/property/landing-5.jpg",
+            src: "/assets/img/property/landing-5.webp",
             alt: "Property landing demo 5",
             t: "Boutique agency",
             d: "Premium residential capture page.",
@@ -389,7 +389,7 @@ export default function PropertyHubPage() {
             h: 1075,
           },
           {
-            src: "/assets/img/property/landing-6.jpg",
+            src: "/assets/img/property/landing-6.webp",
             alt: "Property landing demo 6",
             t: "Stock campaign",
             d: "Campaign lander ready for Meta / Google.",
@@ -397,7 +397,7 @@ export default function PropertyHubPage() {
             h: 1104,
           },
           {
-            src: "/assets/img/property/landing-tall.jpg",
+            src: "/assets/img/property/landing-tall.webp",
             alt: "Tall property landing demo",
             t: "Long-scroll lander",
             d: "Full story + amenities + enquire path.",
@@ -510,7 +510,7 @@ export default function PropertyHubPage() {
         note="Sample concepts for scoping. Not live product claims or unsupervised chatbot agents."
         items={[
           {
-            src: "/assets/img/property/ai-agent.jpg",
+            src: "/assets/img/property/ai-agent.webp",
             alt: "AI agent for real estate concept",
             t: "AI agent",
             d: "Reply drafts and nudges — agents stay in control.",
@@ -518,7 +518,7 @@ export default function PropertyHubPage() {
             h: 490,
           },
           {
-            src: "/assets/img/property/ai-square-1.jpg",
+            src: "/assets/img/property/ai-square-1.webp",
             alt: "AI property concept square 1",
             t: "Desk assist",
             d: "Tasks and follow-up help beside the inbox.",
@@ -526,7 +526,7 @@ export default function PropertyHubPage() {
             h: 736,
           },
           {
-            src: "/assets/img/property/ai-square-2.jpg",
+            src: "/assets/img/property/ai-square-2.webp",
             alt: "AI property concept square 2",
             t: "Buyer assist",
             d: "Optional buyer-facing AI — only if you ask.",
@@ -534,7 +534,7 @@ export default function PropertyHubPage() {
             h: 736,
           },
           {
-            src: "/assets/img/property/ai-hub.jpg",
+            src: "/assets/img/property/ai-hub.webp",
             alt: "AI property hub concept",
             t: "System vision",
             d: "How AI can sit beside the enquiry stack.",
@@ -542,7 +542,7 @@ export default function PropertyHubPage() {
             h: 1200,
           },
           {
-            src: "/assets/img/property/landing-crm.jpg",
+            src: "/assets/img/property/landing-crm.webp",
             alt: "AI-powered real estate CRM landing",
             t: "AI CRM landing",
             d: "Marketing framing for an AI-assisted RE CRM.",
