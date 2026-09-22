@@ -18,3 +18,10 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Local `next dev` only — do not run during CF / OpenNext builds (SQLITE_BUSY).
+if (process.env.NODE_ENV === "development") {
+  void import("@opennextjs/cloudflare").then(({ initOpenNextCloudflareForDev }) => {
+    initOpenNextCloudflareForDev();
+  });
+}
